@@ -2,7 +2,7 @@
 // AUTO-GENERATED FILE, DO NOT MODIFY!
 //
 
-export 'package:login_api/src/api.dart' hide LoginApi;
+export 'package:login_api/src/api.dart';
 export 'package:login_api/src/auth/api_key_auth.dart';
 export 'package:login_api/src/auth/basic_auth.dart';
 export 'package:login_api/src/auth/bearer_auth.dart';
@@ -11,7 +11,7 @@ export 'package:login_api/src/serializers.dart';
 export 'package:login_api/src/model/date.dart';
 
 export 'package:login_api/src/api/items_api.dart';
-export 'package:login_api/src/api/login_api.dart';
+
 export 'package:login_api/src/api/private_api.dart';
 export 'package:login_api/src/api/users_api.dart';
 export 'package:login_api/src/api/utils_api.dart';

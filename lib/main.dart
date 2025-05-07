@@ -1,6 +1,13 @@
 // Openapi Generator last run: : 2025-05-07T22:00:23.869971
 import 'package:flutter/material.dart';
 import 'package:openapi_generator_annotations/openapi_generator_annotations.dart';
+import 'package:login_api/login_api.dart';
+
+
+final api = LoginApi().getItemsApi(); // Assuming 'itemsApi' is the correct property or method
+final ItemCreate itemCreate = ItemCreate();
+
+
 
 
 void main() {
