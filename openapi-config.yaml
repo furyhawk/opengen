@@ -1,0 +1,10 @@
+inputSpec: https://service.furyhawk.lol/api/v1/openapi.json
+outputDir: lib/api_client
+generatorName: dart-dio
+additionalProperties:
+  pubName: furyhawk_api
+  pubVersion: 1.0.0
+  pubDescription: API client for Furyhawk service
+  useEnumExtension: true
+  serializationLibrary: json_serializable
+  emitDefaultValues: true
